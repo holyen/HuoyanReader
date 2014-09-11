@@ -33,6 +33,16 @@
 		9E73A03819C1805700CF6425 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A03019C1805700CF6425 /* DDTTYLogger.m */; };
 		9E73A03919C1805700CF6425 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A03219C1805700CF6425 /* DispatchQueueLogFormatter.m */; };
 		9E73A03E19C181FE00CF6425 /* JDLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A03D19C181FE00CF6425 /* JDLogger.m */; };
+		9E73A04219C1DC0800CF6425 /* JDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A04019C1DC0800CF6425 /* JDRootViewController.m */; };
+		9E73A04319C1DC0800CF6425 /* JDRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E73A04119C1DC0800CF6425 /* JDRootViewController.xib */; };
+		9E73A04819C1DDD800CF6425 /* JDFollowBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A04619C1DDD800CF6425 /* JDFollowBooksViewController.m */; };
+		9E73A04919C1DDD800CF6425 /* JDFollowBooksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E73A04719C1DDD800CF6425 /* JDFollowBooksViewController.xib */; };
+		9E73A04D19C1E0FD00CF6425 /* JDMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A04C19C1E0FD00CF6425 /* JDMainWindow.m */; };
+		9E73A05219C1E20900CF6425 /* JDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A05019C1E20900CF6425 /* JDLoginViewController.m */; };
+		9E73A05319C1E20900CF6425 /* JDLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E73A05119C1E20900CF6425 /* JDLoginViewController.xib */; };
+		9E73A05719C1E2D300CF6425 /* JDRenderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A05619C1E2D300CF6425 /* JDRenderHelper.m */; };
+		9E73A05C19C1E47000CF6425 /* JDMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A05A19C1E47000CF6425 /* JDMenuViewController.m */; };
+		9E73A05D19C1E47000CF6425 /* JDMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E73A05B19C1E47000CF6425 /* JDMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +96,22 @@
 		9E73A03219C1805700CF6425 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		9E73A03C19C181FE00CF6425 /* JDLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLogger.h; sourceTree = "<group>"; };
 		9E73A03D19C181FE00CF6425 /* JDLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLogger.m; sourceTree = "<group>"; };
+		9E73A03F19C1DC0800CF6425 /* JDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDRootViewController.h; sourceTree = "<group>"; };
+		9E73A04019C1DC0800CF6425 /* JDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDRootViewController.m; sourceTree = "<group>"; };
+		9E73A04119C1DC0800CF6425 /* JDRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDRootViewController.xib; sourceTree = "<group>"; };
+		9E73A04519C1DDD800CF6425 /* JDFollowBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFollowBooksViewController.h; sourceTree = "<group>"; };
+		9E73A04619C1DDD800CF6425 /* JDFollowBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFollowBooksViewController.m; sourceTree = "<group>"; };
+		9E73A04719C1DDD800CF6425 /* JDFollowBooksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDFollowBooksViewController.xib; sourceTree = "<group>"; };
+		9E73A04B19C1E0FD00CF6425 /* JDMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMainWindow.h; sourceTree = "<group>"; };
+		9E73A04C19C1E0FD00CF6425 /* JDMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMainWindow.m; sourceTree = "<group>"; };
+		9E73A04F19C1E20900CF6425 /* JDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoginViewController.h; sourceTree = "<group>"; };
+		9E73A05019C1E20900CF6425 /* JDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginViewController.m; sourceTree = "<group>"; };
+		9E73A05119C1E20900CF6425 /* JDLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDLoginViewController.xib; sourceTree = "<group>"; };
+		9E73A05519C1E2D300CF6425 /* JDRenderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDRenderHelper.h; sourceTree = "<group>"; };
+		9E73A05619C1E2D300CF6425 /* JDRenderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDRenderHelper.m; sourceTree = "<group>"; };
+		9E73A05919C1E47000CF6425 /* JDMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMenuViewController.h; sourceTree = "<group>"; };
+		9E73A05A19C1E47000CF6425 /* JDMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMenuViewController.m; sourceTree = "<group>"; };
+		9E73A05B19C1E47000CF6425 /* JDMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +239,10 @@
 		9E73A01E19C178A100CF6425 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				9E73A05819C1E45A00CF6425 /* MenuViewController */,
+				9E73A04E19C1E1F300CF6425 /* LoginViewController */,
+				9E73A04A19C1E0E600CF6425 /* CustomView */,
+				9E73A04419C1DD3300CF6425 /* FollowBooksViewController */,
 				9E73A02319C17E5900CF6425 /* RootViewController */,
 				9E73A01F19C178DC00CF6425 /* SlidingViewController */,
 			);
@@ -231,6 +261,9 @@
 		9E73A02319C17E5900CF6425 /* RootViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9E73A03F19C1DC0800CF6425 /* JDRootViewController.h */,
+				9E73A04019C1DC0800CF6425 /* JDRootViewController.m */,
+				9E73A04119C1DC0800CF6425 /* JDRootViewController.xib */,
 			);
 			path = RootViewController;
 			sourceTree = "<group>";
@@ -259,6 +292,7 @@
 		9E73A03A19C1819600CF6425 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				9E73A05419C1E2B700CF6425 /* Render */,
 				9E73A03B19C181B200CF6425 /* Logging */,
 			);
 			path = Utility;
@@ -271,6 +305,54 @@
 				9E73A03D19C181FE00CF6425 /* JDLogger.m */,
 			);
 			path = Logging;
+			sourceTree = "<group>";
+		};
+		9E73A04419C1DD3300CF6425 /* FollowBooksViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A04519C1DDD800CF6425 /* JDFollowBooksViewController.h */,
+				9E73A04619C1DDD800CF6425 /* JDFollowBooksViewController.m */,
+				9E73A04719C1DDD800CF6425 /* JDFollowBooksViewController.xib */,
+			);
+			path = FollowBooksViewController;
+			sourceTree = "<group>";
+		};
+		9E73A04A19C1E0E600CF6425 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A04B19C1E0FD00CF6425 /* JDMainWindow.h */,
+				9E73A04C19C1E0FD00CF6425 /* JDMainWindow.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		9E73A04E19C1E1F300CF6425 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A04F19C1E20900CF6425 /* JDLoginViewController.h */,
+				9E73A05019C1E20900CF6425 /* JDLoginViewController.m */,
+				9E73A05119C1E20900CF6425 /* JDLoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		9E73A05419C1E2B700CF6425 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A05519C1E2D300CF6425 /* JDRenderHelper.h */,
+				9E73A05619C1E2D300CF6425 /* JDRenderHelper.m */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		9E73A05819C1E45A00CF6425 /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A05919C1E47000CF6425 /* JDMenuViewController.h */,
+				9E73A05A19C1E47000CF6425 /* JDMenuViewController.m */,
+				9E73A05B19C1E47000CF6425 /* JDMenuViewController.xib */,
+			);
+			path = MenuViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,7 +431,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E73A05319C1E20900CF6425 /* JDLoginViewController.xib in Resources */,
+				9E73A05D19C1E47000CF6425 /* JDMenuViewController.xib in Resources */,
 				9E739FAD19C170B300CF6425 /* InfoPlist.strings in Resources */,
+				9E73A04319C1DC0800CF6425 /* JDRootViewController.xib in Resources */,
+				9E73A04919C1DDD800CF6425 /* JDFollowBooksViewController.xib in Resources */,
 				9E739FB819C170B400CF6425 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,14 +461,20 @@
 				9E739FB319C170B300CF6425 /* JDAppDelegate.m in Sources */,
 				9E73A03919C1805700CF6425 /* DispatchQueueLogFormatter.m in Sources */,
 				9E73A01C19C1786100CF6425 /* ECSlidingViewController.m in Sources */,
+				9E73A04819C1DDD800CF6425 /* JDFollowBooksViewController.m in Sources */,
+				9E73A04D19C1E0FD00CF6425 /* JDMainWindow.m in Sources */,
 				9E73A03719C1805700CF6425 /* DDLog.m in Sources */,
+				9E73A05719C1E2D300CF6425 /* JDRenderHelper.m in Sources */,
 				9E73A03519C1805700CF6425 /* DDASLLogger.m in Sources */,
 				9E739FB619C170B300CF6425 /* HuoyanReader.xcdatamodeld in Sources */,
 				9E73A03419C1805700CF6425 /* DDAbstractDatabaseLogger.m in Sources */,
+				9E73A05219C1E20900CF6425 /* JDLoginViewController.m in Sources */,
 				9E73A03819C1805700CF6425 /* DDTTYLogger.m in Sources */,
 				9E73A03E19C181FE00CF6425 /* JDLogger.m in Sources */,
+				9E73A04219C1DC0800CF6425 /* JDRootViewController.m in Sources */,
 				9E739FAF19C170B300CF6425 /* main.m in Sources */,
 				9E73A03619C1805700CF6425 /* DDFileLogger.m in Sources */,
+				9E73A05C19C1E47000CF6425 /* JDMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

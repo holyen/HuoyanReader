@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JDMainWindow.h"
 
 @interface JDAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) JDMainWindow *window;
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
