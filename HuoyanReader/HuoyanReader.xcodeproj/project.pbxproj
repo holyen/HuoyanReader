@@ -22,6 +22,17 @@
 		9E739FC219C170B400CF6425 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA619C170B300CF6425 /* CoreData.framework */; };
 		9E739FCA19C170B400CF6425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E739FC819C170B400CF6425 /* InfoPlist.strings */; };
 		9E739FCC19C170B400CF6425 /* HuoyanReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E739FCB19C170B400CF6425 /* HuoyanReaderTests.m */; };
+		9E73A01C19C1786100CF6425 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A01919C1786100CF6425 /* ECSlidingViewController.m */; };
+		9E73A01D19C1786100CF6425 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A01B19C1786100CF6425 /* UIImage+ImageWithUIView.m */; };
+		9E73A02219C1791100CF6425 /* JDSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02119C1791100CF6425 /* JDSlidingViewController.m */; };
+		9E73A03319C1805700CF6425 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02619C1805700CF6425 /* ContextFilterLogFormatter.m */; };
+		9E73A03419C1805700CF6425 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02819C1805700CF6425 /* DDAbstractDatabaseLogger.m */; };
+		9E73A03519C1805700CF6425 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02A19C1805700CF6425 /* DDASLLogger.m */; };
+		9E73A03619C1805700CF6425 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02C19C1805700CF6425 /* DDFileLogger.m */; };
+		9E73A03719C1805700CF6425 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02E19C1805700CF6425 /* DDLog.m */; };
+		9E73A03819C1805700CF6425 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A03019C1805700CF6425 /* DDTTYLogger.m */; };
+		9E73A03919C1805700CF6425 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A03219C1805700CF6425 /* DispatchQueueLogFormatter.m */; };
+		9E73A03E19C181FE00CF6425 /* JDLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A03D19C181FE00CF6425 /* JDLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,28 @@
 		9E739FC719C170B400CF6425 /* HuoyanReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HuoyanReaderTests-Info.plist"; sourceTree = "<group>"; };
 		9E739FC919C170B400CF6425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E739FCB19C170B400CF6425 /* HuoyanReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuoyanReaderTests.m; sourceTree = "<group>"; };
+		9E73A01819C1786100CF6425 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		9E73A01919C1786100CF6425 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		9E73A01A19C1786100CF6425 /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		9E73A01B19C1786100CF6425 /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		9E73A02019C1791100CF6425 /* JDSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSlidingViewController.h; sourceTree = "<group>"; };
+		9E73A02119C1791100CF6425 /* JDSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSlidingViewController.m; sourceTree = "<group>"; };
+		9E73A02519C1805700CF6425 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		9E73A02619C1805700CF6425 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		9E73A02719C1805700CF6425 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		9E73A02819C1805700CF6425 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		9E73A02919C1805700CF6425 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		9E73A02A19C1805700CF6425 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		9E73A02B19C1805700CF6425 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		9E73A02C19C1805700CF6425 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		9E73A02D19C1805700CF6425 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		9E73A02E19C1805700CF6425 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		9E73A02F19C1805700CF6425 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		9E73A03019C1805700CF6425 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		9E73A03119C1805700CF6425 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		9E73A03219C1805700CF6425 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		9E73A03C19C181FE00CF6425 /* JDLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLogger.h; sourceTree = "<group>"; };
+		9E73A03D19C181FE00CF6425 /* JDLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +117,7 @@
 		9E739F9419C170B300CF6425 = {
 			isa = PBXGroup;
 			children = (
-				9E739FA819C170B300CF6425 /* HuoyanReader */,
+				9E739FA819C170B300CF6425 /* Classes */,
 				9E739FC519C170B400CF6425 /* HuoyanReaderTests */,
 				9E739F9F19C170B300CF6425 /* Frameworks */,
 				9E739F9E19C170B300CF6425 /* Products */,
@@ -112,15 +145,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9E739FA819C170B300CF6425 /* HuoyanReader */ = {
+		9E739FA819C170B300CF6425 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9E73A03A19C1819600CF6425 /* Utility */,
+				9E73A01E19C178A100CF6425 /* UI */,
+				9E73A01619C1786100CF6425 /* Libs */,
 				9E739FB119C170B300CF6425 /* JDAppDelegate.h */,
 				9E739FB219C170B300CF6425 /* JDAppDelegate.m */,
 				9E739FB719C170B400CF6425 /* Images.xcassets */,
 				9E739FB419C170B300CF6425 /* HuoyanReader.xcdatamodeld */,
 				9E739FA919C170B300CF6425 /* Supporting Files */,
 			);
+			name = Classes;
 			path = HuoyanReader;
 			sourceTree = "<group>";
 		};
@@ -151,6 +188,89 @@
 				9E739FC819C170B400CF6425 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E73A01619C1786100CF6425 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A02419C1805700CF6425 /* Lumberjack */,
+				9E73A01719C1786100CF6425 /* ECSlidingViewController */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		9E73A01719C1786100CF6425 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A01819C1786100CF6425 /* ECSlidingViewController.h */,
+				9E73A01919C1786100CF6425 /* ECSlidingViewController.m */,
+				9E73A01A19C1786100CF6425 /* UIImage+ImageWithUIView.h */,
+				9E73A01B19C1786100CF6425 /* UIImage+ImageWithUIView.m */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		9E73A01E19C178A100CF6425 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A02319C17E5900CF6425 /* RootViewController */,
+				9E73A01F19C178DC00CF6425 /* SlidingViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9E73A01F19C178DC00CF6425 /* SlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A02019C1791100CF6425 /* JDSlidingViewController.h */,
+				9E73A02119C1791100CF6425 /* JDSlidingViewController.m */,
+			);
+			path = SlidingViewController;
+			sourceTree = "<group>";
+		};
+		9E73A02319C17E5900CF6425 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		9E73A02419C1805700CF6425 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A02519C1805700CF6425 /* ContextFilterLogFormatter.h */,
+				9E73A02619C1805700CF6425 /* ContextFilterLogFormatter.m */,
+				9E73A02719C1805700CF6425 /* DDAbstractDatabaseLogger.h */,
+				9E73A02819C1805700CF6425 /* DDAbstractDatabaseLogger.m */,
+				9E73A02919C1805700CF6425 /* DDASLLogger.h */,
+				9E73A02A19C1805700CF6425 /* DDASLLogger.m */,
+				9E73A02B19C1805700CF6425 /* DDFileLogger.h */,
+				9E73A02C19C1805700CF6425 /* DDFileLogger.m */,
+				9E73A02D19C1805700CF6425 /* DDLog.h */,
+				9E73A02E19C1805700CF6425 /* DDLog.m */,
+				9E73A02F19C1805700CF6425 /* DDTTYLogger.h */,
+				9E73A03019C1805700CF6425 /* DDTTYLogger.m */,
+				9E73A03119C1805700CF6425 /* DispatchQueueLogFormatter.h */,
+				9E73A03219C1805700CF6425 /* DispatchQueueLogFormatter.m */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		9E73A03A19C1819600CF6425 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A03B19C181B200CF6425 /* Logging */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9E73A03B19C181B200CF6425 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A03C19C181FE00CF6425 /* JDLogger.h */,
+				9E73A03D19C181FE00CF6425 /* JDLogger.m */,
+			);
+			path = Logging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +369,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E73A01D19C1786100CF6425 /* UIImage+ImageWithUIView.m in Sources */,
+				9E73A03319C1805700CF6425 /* ContextFilterLogFormatter.m in Sources */,
+				9E73A02219C1791100CF6425 /* JDSlidingViewController.m in Sources */,
 				9E739FB319C170B300CF6425 /* JDAppDelegate.m in Sources */,
+				9E73A03919C1805700CF6425 /* DispatchQueueLogFormatter.m in Sources */,
+				9E73A01C19C1786100CF6425 /* ECSlidingViewController.m in Sources */,
+				9E73A03719C1805700CF6425 /* DDLog.m in Sources */,
+				9E73A03519C1805700CF6425 /* DDASLLogger.m in Sources */,
 				9E739FB619C170B300CF6425 /* HuoyanReader.xcdatamodeld in Sources */,
+				9E73A03419C1805700CF6425 /* DDAbstractDatabaseLogger.m in Sources */,
+				9E73A03819C1805700CF6425 /* DDTTYLogger.m in Sources */,
+				9E73A03E19C181FE00CF6425 /* JDLogger.m in Sources */,
 				9E739FAF19C170B300CF6425 /* main.m in Sources */,
+				9E73A03619C1805700CF6425 /* DDFileLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
