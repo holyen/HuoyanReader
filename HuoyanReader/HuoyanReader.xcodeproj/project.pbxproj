@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E739FA119C170B300CF6425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA019C170B300CF6425 /* Foundation.framework */; };
+		9E739FA319C170B300CF6425 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA219C170B300CF6425 /* CoreGraphics.framework */; };
+		9E739FA519C170B300CF6425 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA419C170B300CF6425 /* UIKit.framework */; };
+		9E739FA719C170B300CF6425 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA619C170B300CF6425 /* CoreData.framework */; };
+		9E739FAD19C170B300CF6425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E739FAB19C170B300CF6425 /* InfoPlist.strings */; };
+		9E739FAF19C170B300CF6425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E739FAE19C170B300CF6425 /* main.m */; };
+		9E739FB319C170B300CF6425 /* JDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E739FB219C170B300CF6425 /* JDAppDelegate.m */; };
+		9E739FB619C170B300CF6425 /* HuoyanReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E739FB419C170B300CF6425 /* HuoyanReader.xcdatamodeld */; };
+		9E739FB819C170B400CF6425 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E739FB719C170B400CF6425 /* Images.xcassets */; };
+		9E739FBF19C170B400CF6425 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FBE19C170B400CF6425 /* XCTest.framework */; };
+		9E739FC019C170B400CF6425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA019C170B300CF6425 /* Foundation.framework */; };
+		9E739FC119C170B400CF6425 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA419C170B300CF6425 /* UIKit.framework */; };
+		9E739FC219C170B400CF6425 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA619C170B300CF6425 /* CoreData.framework */; };
+		9E739FCA19C170B400CF6425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E739FC819C170B400CF6425 /* InfoPlist.strings */; };
+		9E739FCC19C170B400CF6425 /* HuoyanReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E739FCB19C170B400CF6425 /* HuoyanReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E739FC319C170B400CF6425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E739F9519C170B300CF6425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E739F9C19C170B300CF6425;
+			remoteInfo = HuoyanReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E739F9D19C170B300CF6425 /* HuoyanReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuoyanReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E739FA019C170B300CF6425 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E739FA219C170B300CF6425 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E739FA419C170B300CF6425 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E739FA619C170B300CF6425 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9E739FAA19C170B300CF6425 /* HuoyanReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HuoyanReader-Info.plist"; sourceTree = "<group>"; };
+		9E739FAC19C170B300CF6425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E739FAE19C170B300CF6425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E739FB019C170B300CF6425 /* HuoyanReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HuoyanReader-Prefix.pch"; sourceTree = "<group>"; };
+		9E739FB119C170B300CF6425 /* JDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAppDelegate.h; sourceTree = "<group>"; };
+		9E739FB219C170B300CF6425 /* JDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAppDelegate.m; sourceTree = "<group>"; };
+		9E739FB519C170B300CF6425 /* HuoyanReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HuoyanReader.xcdatamodel; sourceTree = "<group>"; };
+		9E739FB719C170B400CF6425 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E739FBD19C170B400CF6425 /* HuoyanReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuoyanReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E739FBE19C170B400CF6425 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9E739FC719C170B400CF6425 /* HuoyanReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HuoyanReaderTests-Info.plist"; sourceTree = "<group>"; };
+		9E739FC919C170B400CF6425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E739FCB19C170B400CF6425 /* HuoyanReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuoyanReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E739F9A19C170B300CF6425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E739FA319C170B300CF6425 /* CoreGraphics.framework in Frameworks */,
+				9E739FA719C170B300CF6425 /* CoreData.framework in Frameworks */,
+				9E739FA519C170B300CF6425 /* UIKit.framework in Frameworks */,
+				9E739FA119C170B300CF6425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E739FBA19C170B400CF6425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E739FBF19C170B400CF6425 /* XCTest.framework in Frameworks */,
+				9E739FC219C170B400CF6425 /* CoreData.framework in Frameworks */,
+				9E739FC119C170B400CF6425 /* UIKit.framework in Frameworks */,
+				9E739FC019C170B400CF6425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E739F9419C170B300CF6425 = {
+			isa = PBXGroup;
+			children = (
+				9E739FA819C170B300CF6425 /* HuoyanReader */,
+				9E739FC519C170B400CF6425 /* HuoyanReaderTests */,
+				9E739F9F19C170B300CF6425 /* Frameworks */,
+				9E739F9E19C170B300CF6425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E739F9E19C170B300CF6425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E739F9D19C170B300CF6425 /* HuoyanReader.app */,
+				9E739FBD19C170B400CF6425 /* HuoyanReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E739F9F19C170B300CF6425 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E739FA019C170B300CF6425 /* Foundation.framework */,
+				9E739FA219C170B300CF6425 /* CoreGraphics.framework */,
+				9E739FA419C170B300CF6425 /* UIKit.framework */,
+				9E739FA619C170B300CF6425 /* CoreData.framework */,
+				9E739FBE19C170B400CF6425 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E739FA819C170B300CF6425 /* HuoyanReader */ = {
+			isa = PBXGroup;
+			children = (
+				9E739FB119C170B300CF6425 /* JDAppDelegate.h */,
+				9E739FB219C170B300CF6425 /* JDAppDelegate.m */,
+				9E739FB719C170B400CF6425 /* Images.xcassets */,
+				9E739FB419C170B300CF6425 /* HuoyanReader.xcdatamodeld */,
+				9E739FA919C170B300CF6425 /* Supporting Files */,
+			);
+			path = HuoyanReader;
+			sourceTree = "<group>";
+		};
+		9E739FA919C170B300CF6425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E739FAA19C170B300CF6425 /* HuoyanReader-Info.plist */,
+				9E739FAB19C170B300CF6425 /* InfoPlist.strings */,
+				9E739FAE19C170B300CF6425 /* main.m */,
+				9E739FB019C170B300CF6425 /* HuoyanReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E739FC519C170B400CF6425 /* HuoyanReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E739FCB19C170B400CF6425 /* HuoyanReaderTests.m */,
+				9E739FC619C170B400CF6425 /* Supporting Files */,
+			);
+			path = HuoyanReaderTests;
+			sourceTree = "<group>";
+		};
+		9E739FC619C170B400CF6425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E739FC719C170B400CF6425 /* HuoyanReaderTests-Info.plist */,
+				9E739FC819C170B400CF6425 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E739F9C19C170B300CF6425 /* HuoyanReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E739FCF19C170B400CF6425 /* Build configuration list for PBXNativeTarget "HuoyanReader" */;
+			buildPhases = (
+				9E739F9919C170B300CF6425 /* Sources */,
+				9E739F9A19C170B300CF6425 /* Frameworks */,
+				9E739F9B19C170B300CF6425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuoyanReader;
+			productName = HuoyanReader;
+			productReference = 9E739F9D19C170B300CF6425 /* HuoyanReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E739FBC19C170B400CF6425 /* HuoyanReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E739FD219C170B400CF6425 /* Build configuration list for PBXNativeTarget "HuoyanReaderTests" */;
+			buildPhases = (
+				9E739FB919C170B400CF6425 /* Sources */,
+				9E739FBA19C170B400CF6425 /* Frameworks */,
+				9E739FBB19C170B400CF6425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E739FC419C170B400CF6425 /* PBXTargetDependency */,
+			);
+			name = HuoyanReaderTests;
+			productName = HuoyanReaderTests;
+			productReference = 9E739FBD19C170B400CF6425 /* HuoyanReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E739F9519C170B300CF6425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = 0jiedian;
+				TargetAttributes = {
+					9E739FBC19C170B400CF6425 = {
+						TestTargetID = 9E739F9C19C170B300CF6425;
+					};
+				};
+			};
+			buildConfigurationList = 9E739F9819C170B300CF6425 /* Build configuration list for PBXProject "HuoyanReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E739F9419C170B300CF6425;
+			productRefGroup = 9E739F9E19C170B300CF6425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E739F9C19C170B300CF6425 /* HuoyanReader */,
+				9E739FBC19C170B400CF6425 /* HuoyanReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E739F9B19C170B300CF6425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E739FAD19C170B300CF6425 /* InfoPlist.strings in Resources */,
+				9E739FB819C170B400CF6425 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E739FBB19C170B400CF6425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E739FCA19C170B400CF6425 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E739F9919C170B300CF6425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E739FB319C170B300CF6425 /* JDAppDelegate.m in Sources */,
+				9E739FB619C170B300CF6425 /* HuoyanReader.xcdatamodeld in Sources */,
+				9E739FAF19C170B300CF6425 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E739FB919C170B400CF6425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E739FCC19C170B400CF6425 /* HuoyanReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E739FC419C170B400CF6425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E739F9C19C170B300CF6425 /* HuoyanReader */;
+			targetProxy = 9E739FC319C170B400CF6425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E739FAB19C170B300CF6425 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E739FAC19C170B300CF6425 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E739FC819C170B400CF6425 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E739FC919C170B400CF6425 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E739FCD19C170B400CF6425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E739FCE19C170B400CF6425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E739FD019C170B400CF6425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HuoyanReader/HuoyanReader-Prefix.pch";
+				INFOPLIST_FILE = "HuoyanReader/HuoyanReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E739FD119C170B400CF6425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HuoyanReader/HuoyanReader-Prefix.pch";
+				INFOPLIST_FILE = "HuoyanReader/HuoyanReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9E739FD319C170B400CF6425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HuoyanReader.app/HuoyanReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HuoyanReader/HuoyanReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HuoyanReaderTests/HuoyanReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9E739FD419C170B400CF6425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HuoyanReader.app/HuoyanReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HuoyanReader/HuoyanReader-Prefix.pch";
+				INFOPLIST_FILE = "HuoyanReaderTests/HuoyanReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E739F9819C170B300CF6425 /* Build configuration list for PBXProject "HuoyanReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E739FCD19C170B400CF6425 /* Debug */,
+				9E739FCE19C170B400CF6425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E739FCF19C170B400CF6425 /* Build configuration list for PBXNativeTarget "HuoyanReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E739FD019C170B400CF6425 /* Debug */,
+				9E739FD119C170B400CF6425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E739FD219C170B400CF6425 /* Build configuration list for PBXNativeTarget "HuoyanReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E739FD319C170B400CF6425 /* Debug */,
+				9E739FD419C170B400CF6425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E739FB419C170B300CF6425 /* HuoyanReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E739FB519C170B300CF6425 /* HuoyanReader.xcdatamodel */,
+			);
+			currentVersion = 9E739FB519C170B300CF6425 /* HuoyanReader.xcdatamodel */;
+			path = HuoyanReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E739F9519C170B300CF6425 /* Project object */;
+}
