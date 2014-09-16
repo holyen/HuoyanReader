@@ -44,6 +44,15 @@ static HRSliderController *sharedSC;
     return sharedSC;
 }
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        _leftViewController = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+        _rightViewController = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -109,7 +118,8 @@ static HRSliderController *sharedSC;
     if (!controller)
     {
         Class c = NSClassFromString(model.className);
-        UIViewController *vc = [[c alloc] init];
+        UIViewController *vc = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+        vc.view.backgroundColor = [UIColor yellowColor];
         controller = [[UINavigationController alloc] initWithRootViewController:vc];
                 
         UILabel *titleLabel = [[UILabel alloc] init];

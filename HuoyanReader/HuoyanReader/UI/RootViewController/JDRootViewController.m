@@ -17,24 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor blackColor];
-    self.shouldAddPanGestureRecognizerToFrontViewSnapshot = YES;
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[[JDFollowBooksViewController alloc] initWithNibName:nil bundle:nil]];
-    [self setFrontViewController:navController];
-    [self loadLeftBackViewController];
-    [self loadRightBackViewController];
-}
-
-- (void)loadLeftBackViewController
-{
-    self.anchorRightPeekAmount = 49.f;
-    _menuViewController = [[JDMenuViewController alloc] initWithNibName:nil bundle:nil];
-    self.leftBackViewController = _menuViewController;
-}
-
-- (void)loadRightBackViewController
-{
-    //implement this method in subclasses
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 @end

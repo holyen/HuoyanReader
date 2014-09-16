@@ -6,16 +6,13 @@
 //  Copyright (c) 2014年 0jiedian. All rights reserved.
 //
 
-#import "JDSlidingViewController.h"
+#import "HRSliderController.h"
 #import "JDMenuViewController.h"
 #import "JDFollowBooksViewController.h"
 
-@interface JDRootViewController : JDSlidingViewController
+@interface JDRootViewController : HRSliderController
 {
     JDMenuViewController *_menuViewController;
 }
-
-- (void)loadLeftBackViewController;
-- (void)loadRightBackViewController;
 
 @end
