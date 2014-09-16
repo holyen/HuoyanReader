@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0826A54ED5AA4255830BB388 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D16A3E764ECE44ADB42DDD84 /* libPods.a */; };
+		9E25BD8419C7E3C800CFAEF8 /* HRSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E25BD8319C7E3C800CFAEF8 /* HRSliderController.m */; };
+		9E25BD8719C7E53600CFAEF8 /* ClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E25BD8619C7E53600CFAEF8 /* ClassModel.m */; };
 		9E739FA119C170B300CF6425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA019C170B300CF6425 /* Foundation.framework */; };
 		9E739FA319C170B300CF6425 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA219C170B300CF6425 /* CoreGraphics.framework */; };
 		9E739FA519C170B300CF6425 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FA419C170B300CF6425 /* UIKit.framework */; };
@@ -25,13 +28,6 @@
 		9E73A01C19C1786100CF6425 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A01919C1786100CF6425 /* ECSlidingViewController.m */; };
 		9E73A01D19C1786100CF6425 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A01B19C1786100CF6425 /* UIImage+ImageWithUIView.m */; };
 		9E73A02219C1791100CF6425 /* JDSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02119C1791100CF6425 /* JDSlidingViewController.m */; };
-		9E73A03319C1805700CF6425 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02619C1805700CF6425 /* ContextFilterLogFormatter.m */; };
-		9E73A03419C1805700CF6425 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02819C1805700CF6425 /* DDAbstractDatabaseLogger.m */; };
-		9E73A03519C1805700CF6425 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02A19C1805700CF6425 /* DDASLLogger.m */; };
-		9E73A03619C1805700CF6425 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02C19C1805700CF6425 /* DDFileLogger.m */; };
-		9E73A03719C1805700CF6425 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A02E19C1805700CF6425 /* DDLog.m */; };
-		9E73A03819C1805700CF6425 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A03019C1805700CF6425 /* DDTTYLogger.m */; };
-		9E73A03919C1805700CF6425 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A03219C1805700CF6425 /* DispatchQueueLogFormatter.m */; };
 		9E73A03E19C181FE00CF6425 /* JDLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A03D19C181FE00CF6425 /* JDLogger.m */; };
 		9E73A04219C1DC0800CF6425 /* JDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A04019C1DC0800CF6425 /* JDRootViewController.m */; };
 		9E73A04319C1DC0800CF6425 /* JDRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E73A04119C1DC0800CF6425 /* JDRootViewController.xib */; };
@@ -56,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C60583491BF4F349E40891E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9E25BD8219C7E3C800CFAEF8 /* HRSliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRSliderController.h; sourceTree = "<group>"; };
+		9E25BD8319C7E3C800CFAEF8 /* HRSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRSliderController.m; sourceTree = "<group>"; };
+		9E25BD8519C7E53600CFAEF8 /* ClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassModel.h; sourceTree = "<group>"; };
+		9E25BD8619C7E53600CFAEF8 /* ClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassModel.m; sourceTree = "<group>"; };
 		9E739F9D19C170B300CF6425 /* HuoyanReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuoyanReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E739FA019C170B300CF6425 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E739FA219C170B300CF6425 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,20 +81,6 @@
 		9E73A01B19C1786100CF6425 /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
 		9E73A02019C1791100CF6425 /* JDSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSlidingViewController.h; sourceTree = "<group>"; };
 		9E73A02119C1791100CF6425 /* JDSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSlidingViewController.m; sourceTree = "<group>"; };
-		9E73A02519C1805700CF6425 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
-		9E73A02619C1805700CF6425 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
-		9E73A02719C1805700CF6425 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		9E73A02819C1805700CF6425 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		9E73A02919C1805700CF6425 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
-		9E73A02A19C1805700CF6425 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
-		9E73A02B19C1805700CF6425 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
-		9E73A02C19C1805700CF6425 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
-		9E73A02D19C1805700CF6425 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
-		9E73A02E19C1805700CF6425 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
-		9E73A02F19C1805700CF6425 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
-		9E73A03019C1805700CF6425 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
-		9E73A03119C1805700CF6425 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
-		9E73A03219C1805700CF6425 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		9E73A03C19C181FE00CF6425 /* JDLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLogger.h; sourceTree = "<group>"; };
 		9E73A03D19C181FE00CF6425 /* JDLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLogger.m; sourceTree = "<group>"; };
 		9E73A03F19C1DC0800CF6425 /* JDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDRootViewController.h; sourceTree = "<group>"; };
@@ -112,6 +99,7 @@
 		9E73A05919C1E47000CF6425 /* JDMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMenuViewController.h; sourceTree = "<group>"; };
 		9E73A05A19C1E47000CF6425 /* JDMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMenuViewController.m; sourceTree = "<group>"; };
 		9E73A05B19C1E47000CF6425 /* JDMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDMenuViewController.xib; sourceTree = "<group>"; };
+		D16A3E764ECE44ADB42DDD84 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +111,7 @@
 				9E739FA719C170B300CF6425 /* CoreData.framework in Frameworks */,
 				9E739FA519C170B300CF6425 /* UIKit.framework in Frameworks */,
 				9E739FA119C170B300CF6425 /* Foundation.framework in Frameworks */,
+				0826A54ED5AA4255830BB388 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +129,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E25BD8119C7E37400CFAEF8 /* HRSliderController */ = {
+			isa = PBXGroup;
+			children = (
+				9E25BD8519C7E53600CFAEF8 /* ClassModel.h */,
+				9E25BD8619C7E53600CFAEF8 /* ClassModel.m */,
+				9E25BD8219C7E3C800CFAEF8 /* HRSliderController.h */,
+				9E25BD8319C7E3C800CFAEF8 /* HRSliderController.m */,
+			);
+			path = HRSliderController;
+			sourceTree = "<group>";
+		};
 		9E739F9419C170B300CF6425 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +147,7 @@
 				9E739FC519C170B400CF6425 /* HuoyanReaderTests */,
 				9E739F9F19C170B300CF6425 /* Frameworks */,
 				9E739F9E19C170B300CF6425 /* Products */,
+				7C60583491BF4F349E40891E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +168,7 @@
 				9E739FA419C170B300CF6425 /* UIKit.framework */,
 				9E739FA619C170B300CF6425 /* CoreData.framework */,
 				9E739FBE19C170B400CF6425 /* XCTest.framework */,
+				D16A3E764ECE44ADB42DDD84 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,7 +221,7 @@
 		9E73A01619C1786100CF6425 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				9E73A02419C1805700CF6425 /* Lumberjack */,
+				9E25BD8119C7E37400CFAEF8 /* HRSliderController */,
 				9E73A01719C1786100CF6425 /* ECSlidingViewController */,
 			);
 			path = Libs;
@@ -266,27 +268,6 @@
 				9E73A04119C1DC0800CF6425 /* JDRootViewController.xib */,
 			);
 			path = RootViewController;
-			sourceTree = "<group>";
-		};
-		9E73A02419C1805700CF6425 /* Lumberjack */ = {
-			isa = PBXGroup;
-			children = (
-				9E73A02519C1805700CF6425 /* ContextFilterLogFormatter.h */,
-				9E73A02619C1805700CF6425 /* ContextFilterLogFormatter.m */,
-				9E73A02719C1805700CF6425 /* DDAbstractDatabaseLogger.h */,
-				9E73A02819C1805700CF6425 /* DDAbstractDatabaseLogger.m */,
-				9E73A02919C1805700CF6425 /* DDASLLogger.h */,
-				9E73A02A19C1805700CF6425 /* DDASLLogger.m */,
-				9E73A02B19C1805700CF6425 /* DDFileLogger.h */,
-				9E73A02C19C1805700CF6425 /* DDFileLogger.m */,
-				9E73A02D19C1805700CF6425 /* DDLog.h */,
-				9E73A02E19C1805700CF6425 /* DDLog.m */,
-				9E73A02F19C1805700CF6425 /* DDTTYLogger.h */,
-				9E73A03019C1805700CF6425 /* DDTTYLogger.m */,
-				9E73A03119C1805700CF6425 /* DispatchQueueLogFormatter.h */,
-				9E73A03219C1805700CF6425 /* DispatchQueueLogFormatter.m */,
-			);
-			path = Lumberjack;
 			sourceTree = "<group>";
 		};
 		9E73A03A19C1819600CF6425 /* Utility */ = {
@@ -362,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E739FCF19C170B400CF6425 /* Build configuration list for PBXNativeTarget "HuoyanReader" */;
 			buildPhases = (
+				FEF40815216F4546B7B40B15 /* Check Pods Manifest.lock */,
 				9E739F9919C170B300CF6425 /* Sources */,
 				9E739F9A19C170B300CF6425 /* Frameworks */,
 				9E739F9B19C170B300CF6425 /* Resources */,
+				49CA4B2B8D774A7A95F09229 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -450,30 +433,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49CA4B2B8D774A7A95F09229 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF40815216F4546B7B40B15 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E739F9919C170B300CF6425 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9E73A01D19C1786100CF6425 /* UIImage+ImageWithUIView.m in Sources */,
-				9E73A03319C1805700CF6425 /* ContextFilterLogFormatter.m in Sources */,
 				9E73A02219C1791100CF6425 /* JDSlidingViewController.m in Sources */,
 				9E739FB319C170B300CF6425 /* JDAppDelegate.m in Sources */,
-				9E73A03919C1805700CF6425 /* DispatchQueueLogFormatter.m in Sources */,
 				9E73A01C19C1786100CF6425 /* ECSlidingViewController.m in Sources */,
 				9E73A04819C1DDD800CF6425 /* JDFollowBooksViewController.m in Sources */,
 				9E73A04D19C1E0FD00CF6425 /* JDMainWindow.m in Sources */,
-				9E73A03719C1805700CF6425 /* DDLog.m in Sources */,
 				9E73A05719C1E2D300CF6425 /* JDRenderHelper.m in Sources */,
-				9E73A03519C1805700CF6425 /* DDASLLogger.m in Sources */,
 				9E739FB619C170B300CF6425 /* HuoyanReader.xcdatamodeld in Sources */,
-				9E73A03419C1805700CF6425 /* DDAbstractDatabaseLogger.m in Sources */,
 				9E73A05219C1E20900CF6425 /* JDLoginViewController.m in Sources */,
-				9E73A03819C1805700CF6425 /* DDTTYLogger.m in Sources */,
 				9E73A03E19C181FE00CF6425 /* JDLogger.m in Sources */,
+				9E25BD8419C7E3C800CFAEF8 /* HRSliderController.m in Sources */,
 				9E73A04219C1DC0800CF6425 /* JDRootViewController.m in Sources */,
 				9E739FAF19C170B300CF6425 /* main.m in Sources */,
-				9E73A03619C1805700CF6425 /* DDFileLogger.m in Sources */,
+				9E25BD8719C7E53600CFAEF8 /* ClassModel.m in Sources */,
 				9E73A05C19C1E47000CF6425 /* JDMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +599,7 @@
 		};
 		9E739FD019C170B400CF6425 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C60583491BF4F349E40891E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -601,6 +613,7 @@
 		};
 		9E739FD119C170B400CF6425 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C60583491BF4F349E40891E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -671,6 +684,7 @@
 				9E739FD119C170B400CF6425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E739FD219C170B400CF6425 /* Build configuration list for PBXNativeTarget "HuoyanReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -679,6 +693,7 @@
 				9E739FD419C170B400CF6425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
